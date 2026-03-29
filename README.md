@@ -30,7 +30,7 @@ This project visually simulates how satellites move in orbit around the Earth. I
 | Technology       | Purpose                          |
 |-----------------|----------------------------------|
 | HTML5            | Page structure                   |
-| CSS3             | Space-themed styling & layout    |
+| CSS3             | Space-themed styling & layout & Modern UI   |
 | JavaScript (ES6) | Simulation logic & physics       |
 | Canvas API       | 2D rendering of orbit & Earth    |
 | Google Fonts     | Orbitron & Share Tech Mono fonts |
@@ -46,8 +46,8 @@ satellite-orbit-simulation/
 │
 ├── index.html       ← Main HTML page
 ├── style.css        ← Styles (dark space theme)
-├── simulation.js    ← Physics engine & Canvas rendering
-└── README.md        ← This file
+├── simulation.js    ← Physics engine & Canvas rendering actual orbit simulation
+└── README.md        ← Instructions to run this program in any browser. 
 ```
 
 ---
@@ -56,7 +56,7 @@ satellite-orbit-simulation/
 
 ### Option 1 — Open Directly (Quickest)
 1. Download or clone this repository
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari)
+2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari, Brave)
 3. The simulation starts immediately!
 
 ### Option 2 — VS Code with Live Server
@@ -68,8 +68,8 @@ satellite-orbit-simulation/
 
 ### Option 3 — Clone from GitHub
 ```bash
-git clone https://github.com/YOUR_USERNAME/satellite-orbit-simulation.git
-cd satellite-orbit-simulation
+git clone https://github.com/abishekkiran007/SatelliteVisualization.git
+cd SatelliteVisualization
 # Open index.html in your browser
 ```
 
@@ -139,14 +139,16 @@ git push -u origin main
 
 ---
 
-## 👤 Author
+## Submitted by,
 
-**Your Name**  
-Course: [Your Course Name]  
-Submission Date: March 30, 2026
+**Abishek Devanand**   
+Engineering Student - Computer Science and Engineering(Cyber Security)
+Email: [abishek07d@gmail.com]
+Contact:[9072356214]
 
----
+## Submitted to:
 
-## 📄 License
-
-This project is created for educational purposes.
+**Sagar Sakkaley**
+Founder & Director
+MacroEdTech
+Submission Date :02 April 2026

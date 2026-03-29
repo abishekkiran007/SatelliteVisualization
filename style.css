@@ -1,4 +1,4 @@
-/* ─── Reset & Base ─────────────────────────────────────── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -23,7 +23,7 @@ html, body {
   overflow: hidden;
 }
 
-/* ─── Starfield background ─────────────────────────────── */
+/*Starfield background*/
 body::before {
   content: '';
   position: fixed;
@@ -41,7 +41,7 @@ body::before {
   z-index: 0;
 }
 
-/* ─── Header ───────────────────────────────────────────── */
+/*Header*/
 header {
   position: relative;
   z-index: 10;
@@ -107,7 +107,7 @@ h1 {
   text-shadow: 0 0 10px var(--cyan);
 }
 
-/* ─── Main Layout ──────────────────────────────────────── */
+/*Main Layout*/
 main {
   position: relative;
   z-index: 5;
@@ -115,7 +115,7 @@ main {
   height: calc(100vh - 57px);
 }
 
-/* ─── Canvas ───────────────────────────────────────────── */
+/*Canvas*/
 .canvas-wrapper {
   position: relative;
   flex: 1;
@@ -141,7 +141,7 @@ main {
 .canvas-overlay-tl { top: 16px; left: 16px; }
 .canvas-overlay-br { bottom: 16px; right: 16px; }
 
-/* ─── Panel ────────────────────────────────────────────── */
+/*Panel*/
 .panel {
   width: 280px;
   min-width: 280px;

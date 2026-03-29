@@ -241,7 +241,8 @@ function drawOrbitPath(cx, cy, r, color) {
   // Simple dashed orbit ring
   ctx.setLineDash([6, 6]);
   ctx.lineWidth   = 1;
-  // Use a color derived from satellite color
+  
+
   ctx.strokeStyle = color + '55';
   ctx.stroke();
   ctx.setLineDash([]);
