@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Satellite Orbit Simulation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <span class="logo">⬡</span>
+      <div>
+        <h1>ORBITAL SIM</h1>
+        <p class="subtitle">Earth Satellite Simulation</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="stat-box">
+        <span class="stat-label">MISSION</span>
+        <span class="stat-value" id="mission-time">T+ 00:00:00</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Canvas -->
+    <div class="canvas-wrapper">
+      <canvas id="orbitCanvas"></canvas>
+      <div class="canvas-overlay-tl">LOW EARTH ORBIT</div>
+      <div class="canvas-overlay-br" id="fps-counter">60 FPS</div>
+    </div>
+
+    <!-- Controls Panel -->
+    <aside class="panel">
+
+      <section class="panel-section">
+        <h2 class="panel-title">SATELLITE ALPHA</h2>
+        <div class="sat-indicator sat-alpha"></div>
+
+        <label class="control-label">ORBIT RADIUS
+          <span class="control-value" id="val-radius-1">200 km</span>
+        </label>
+        <input type="range" id="radius1" min="100" max="300" value="200" class="slider slider-cyan"/>
+
+        <label class="control-label">ORBITAL SPEED
+          <span class="control-value" id="val-speed-1">1.0×</span>
+        </label>
+        <input type="range" id="speed1" min="1" max="20" value="5" class="slider slider-cyan"/>
+
+        <div class="data-row">
+          <span>Orbital Period</span>
+          <span class="data-val" id="period1">—</span>
+        </div>
+        <div class="data-row">
+          <span>Altitude</span>
+          <span class="data-val" id="alt1">—</span>
+        </div>
+        <div class="data-row">
+          <span>Velocity</span>
+          <span class="data-val" id="vel1">—</span>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="panel-section">
+        <h2 class="panel-title">SATELLITE BETA</h2>
+        <div class="sat-indicator sat-beta"></div>
+
+        <label class="control-label">ORBIT RADIUS
+          <span class="control-value" id="val-radius-2">280 km</span>
+        </label>
+        <input type="range" id="radius2" min="100" max="300" value="280" class="slider slider-orange"/>
+
+        <label class="control-label">ORBITAL SPEED
+          <span class="control-value" id="val-speed-2">0.6×</span>
+        </label>
+        <input type="range" id="speed2" min="1" max="20" value="3" class="slider slider-orange"/>
+
+        <div class="data-row">
+          <span>Orbital Period</span>
+          <span class="data-val" id="period2">—</span>
+        </div>
+        <div class="data-row">
+          <span>Altitude</span>
+          <span class="data-val" id="alt2">—</span>
+        </div>
+        <div class="data-row">
+          <span>Velocity</span>
+          <span class="data-val" id="vel2">—</span>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="panel-section">
+        <h2 class="panel-title">SIMULATION</h2>
+        <div class="btn-row">
+          <button class="btn btn-primary" id="pauseBtn">⏸ PAUSE</button>
+          <button class="btn btn-ghost" id="resetBtn">↺ RESET</button>
+        </div>
+        <div class="data-row">
+          <span>Time Scale</span>
+          <span class="data-val">Real-time ×1000</span>
+        </div>
+        <div class="data-row">
+          <span>Earth Radius</span>
+          <span class="data-val">6,371 km</span>
+        </div>
+        <div class="data-row">
+          <span>Gravity (μ)</span>
+          <span class="data-val">398,600 km³/s²</span>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="panel-section legend">
+        <div class="legend-item"><span class="dot dot-cyan"></span> Alpha Orbit Path</div>
+        <div class="legend-item"><span class="dot dot-orange"></span> Beta Orbit Path</div>
+        <div class="legend-item"><span class="dot dot-white"></span> Earth</div>
+      </section>
+
+    </aside>
+  </main>
+
+  <script src="simulation.js"></script>
+</body>
+</html>
