@@ -131,7 +131,7 @@ git init
 git add .
 git commit -m "Initial commit: Satellite Orbit Simulation"
 
-# Link to GitHub (replace with your URL)
+# Link to GitHub 
 git remote add origin (https://github.com/abishekkiran007/SatelliteVisualization.git)
 git branch -M main
 git push -u origin main
