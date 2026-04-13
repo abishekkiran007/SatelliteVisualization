@@ -1,16 +1,16 @@
-# 🛰️ Satellite Orbit Simulation
+#  Satellite Orbit Simulation
 
 A browser-based interactive simulation of satellites orbiting the Earth, built with pure HTML5, CSS3, and JavaScript (Canvas API). Demonstrates real orbital mechanics using Kepler's Third Law.
 
 ---
 
-## 📸 Preview
+##  Preview
 
 > Open `index.html` in any modern browser — no installation required.
 
 ---
 
-## 🚀 Project Description
+##  Project Description
 
 This project visually simulates how satellites move in orbit around the Earth. It features:
 
@@ -25,7 +25,7 @@ This project visually simulates how satellites move in orbit around the Earth. I
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Technology       | Purpose                          |
 |-----------------|----------------------------------|
@@ -39,7 +39,7 @@ This project visually simulates how satellites move in orbit around the Earth. I
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 satellite-orbit-simulation/
@@ -52,7 +52,7 @@ satellite-orbit-simulation/
 
 ---
 
-## ▶️ Steps to Run
+##  Steps to Run
 
 ### Option 1 — Open Directly (Quickest)
 1. Download or clone this repository
@@ -75,7 +75,7 @@ cd SatelliteVisualization
 
 ---
 
-## 🔬 Explanation of the Simulation
+##  Explanation of the Simulation
 
 ### Physics Model
 
@@ -114,7 +114,7 @@ This relationship is clearly visible when you adjust the radius sliders.
 
 ---
 
-## 📡 Satellites
+##  Satellites
 
 | Satellite | Color | Default Altitude | Default Speed |
 |-----------|-------|-----------------|---------------|
@@ -123,7 +123,7 @@ This relationship is clearly visible when you adjust the radius sliders.
 
 ---
 
-## 📤 Uploading to GitHub
+##  Uploading to GitHub
 
 ```bash
 # Initialize repository
