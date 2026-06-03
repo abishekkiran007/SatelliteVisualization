@@ -68,7 +68,7 @@ satellite-orbit-simulation/
 
 ### Option 3 — Clone from GitHub
 ```bash
-git clone https://github.com/abishekkiran007/SatelliteVisualization.git
+git clone https://github.com/abishek-07d/SatelliteVisualization.git
 cd SatelliteVisualization
 # Open index.html in your browser
 ```
@@ -132,7 +132,7 @@ git add .
 git commit -m "Initial commit: Satellite Orbit Simulation"
 
 # Link to GitHub 
-git remote add origin (https://github.com/abishekkiran007/SatelliteVisualization.git)
+git remote add origin (https://github.com/abishek-07d/SatelliteVisualization.git)
 git branch -M main
 git push -u origin main
 ```
