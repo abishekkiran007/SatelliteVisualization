@@ -139,16 +139,11 @@ git push -u origin main
 
 ---
 
-## Submitted by,
+## AUTHOR
 
 **Abishek Devanand**   
 Engineering Student - Computer Science and Engineering(Cyber Security)
 Email: [abishek07d@gmail.com]
 Contact:[8072356214]
 
-## Submitted to:
 
-**Sagar Sakkaley**
-Founder & Director
-MacroEdTech
-Submission Date :07 April 2026
